@@ -1,0 +1,31 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright is a framework for Web Testing and Automation. It is built to enable cross-browser web automation that is reliable and fast. Playwright, also has its own test runner for end-to-end tests called Playwright Test.",
+  "main": "index.js",
+  "scripts": {
+    "allure:generate": "allure generate ./allure-results --clean && allure open ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.25.1",
+    "allure-commandline": "^2.18.1",
+    "allure-playwright": "^2.0.0-beta.15"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alapanme/Playwright-Automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alapanme/Playwright-Automation/issues"
+  },
+  "homepage": "https://github.com/alapanme/Playwright-Automation#readme",
+  "dependencies": {
+    "espress": "^0.0.0"
+  }
+}
